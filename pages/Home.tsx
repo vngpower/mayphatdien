@@ -134,12 +134,11 @@ const Home: React.FC = () => {
         </div>
 
         <div className="container mx-auto px-4 z-10 relative">
-          <div className="max-w-6xl mx-auto text-center">
+          {/* Increased max-width for wider text layout */}
+          <div className="max-w-7xl mx-auto text-center">
             
-            {/* Tagline Removed as requested */}
-            
-            {/* Headline - Larger, Wider, Spaced Out */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-black text-white leading-snug mb-10 animate-fade-in-up delay-100 tracking-tight">
+            {/* Headline - Larger, Wider, More Spaced Out */}
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-black text-white leading-tight mb-8 animate-fade-in-up delay-100 tracking-tight">
               Giải Pháp Nguồn Điện <br className="hidden lg:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-safety-400 to-yellow-300">
                 Dự Phòng Tin Cậy
@@ -148,7 +147,7 @@ const Home: React.FC = () => {
             </h1>
             
             {/* Description - Updated Text */}
-            <p className="text-lg md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-loose animate-fade-in-up delay-200 font-light">
+            <p className="text-xl md:text-3xl text-gray-300 mb-12 max-w-5xl mx-auto leading-relaxed animate-fade-in-up delay-200 font-light">
               Powered By <strong className="text-white font-bold">Kokuro, Cummins, Mitsubishi, Hyundai</strong>.
               <br className="hidden md:block" />
               Lắp ráp tại Việt Nam theo tiêu chuẩn Quốc tế.
